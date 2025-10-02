@@ -1,0 +1,13 @@
+Browser me JavaScript run hoti hai JavaScript Engine ke andar.
+
+Chrome = V8
+
+Firefox = SpiderMonkey
+
+Execution ka process hota hai:
+
+Parsing → code ko read karo
+
+Compilation (JIT – Just in Time) → machine language me convert karo
+
+Execution → CPU pe chalao
