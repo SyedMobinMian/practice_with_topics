@@ -13,26 +13,28 @@
         <hr>
 
         <div class="calc">
-            <input type="text" class="screen" id="display" disable>
+            <input type="text" class="screen" id="screen" disable>
             <div class="buttons">
-                <button onclick="press('7')">7</button>
-                <button onclick="press('7')">8</button>
-                <button onclick="press('7')">9</button>
-                <button onclick="press('7')">/</button>
-                <button onclick="press('7')">4</button>
-                <button onclick="press('7')">5</button>
-                <button onclick="press('7')">6</button>
-                <button onclick="press('7')">*</button>
-                <button onclick="press('7')">1</button>
-                <button onclick="press('7')">2</button>
-                <button onclick="press('7')">3</button>
-                <button onclick="press('7')">-</button>
-                <button onclick="press('7')">0</button>
-                <button onclick="press('7')">.</button>
-                <button onclick="press('7')">+</button>
+                <button onclick="click_button('7')">7</button>
+                <button onclick="click_button('8')">8</button>
+                <button onclick="click_button('9')">9</button>
+                <button onclick="click_button('/')">/</button>
+                <button onclick="click_button('4')">4</button>
+                <button onclick="click_button('5')">5</button>
+                <button onclick="click_button('6')">6</button>
+                <button onclick="click_button('*')">*</button>
+                <button onclick="click_button('1')">1</button>
+                <button onclick="click_button('2')">2</button>
+                <button onclick="click_button('3')">3</button>
+                <button onclick="click_button('-')">-</button>
+                <button onclick="click_button('0')">0</button>
+                <button onclick="click_button('.')">.</button>
+                <button onclick="click_button('+')">+</button>
 
-                <button class="clear" onclick="cleardisplay()">C</button>
-                <button class="equal" onclick=""calculate()>=</button>
+                <button class="clear" onclick="clear_screen()">C</button>
+                <button class="equal" onclick="EqualSign_to_Calculate()">=</button>
+
+
             </div>
         </div>
     </div>
