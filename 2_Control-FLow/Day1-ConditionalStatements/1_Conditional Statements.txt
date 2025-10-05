@@ -1,0 +1,9 @@
+Program ko ye sikhana ki kaunsi situation me kya kaam karna hai — jaise ek traffic signal 
+
+Red → Stop
+
+Yellow → Wait
+
+Green → Go
+
+Yahi kaam JavaScript me conditional statements karte hain.
